@@ -1,0 +1,19 @@
+#Shopping list manager
+shopping_list = []
+while True: 
+    print("\n1. Add contact")
+    print("2.Delete contact")
+    print("3.View contacts")
+    print("4.Exit")
+    choice = input("Enter your choice: ")
+    if choice == "1":
+        shopping_list.append(input("item:"))
+                             
+    elif choice == "2":
+        shopping_list.remove(input("item:"))
+    elif choice == "3": 
+        print(shopping_list)
+    elif choice == "4":     
+            break
+    else: 
+        print("invalid choice.")
