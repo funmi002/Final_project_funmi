@@ -1,0 +1,14 @@
+#Weather checker
+temp = float(input("Enter temperature in Celsius: "))
+
+if temp >= 30:
+    print(f"{temp}°C is Hot.")
+elif temp >= 20:
+    print(f"{temp}°C is Warm.")
+elif temp >= 10:
+    print(f"{temp}°C is Mild.")
+elif temp >= 0:
+    print(f"{temp}°C is Cool.")
+else:
+    print(f"{temp}°C is Cold.") 
+
